@@ -10,7 +10,8 @@ module.exports = function (app) {
 };
 
 app.post("/api/notes", function(req, res) {
-res.send(savedNotes);
+// convert db.json into an array, then push new not into the array
+// 
 
     
   });
