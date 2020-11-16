@@ -9,9 +9,8 @@ module.exports = function (app) {
   });
 };
 
-app.post("/api/notes", function(req, res) {
-// convert db.json into an array, then push new not into the array
-// 
-
+// app.post("/api/notes", function(req, res) {
+// // convert db.json into an array, then push new not into the array
+// // 
     
-  });
+//   });
