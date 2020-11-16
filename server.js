@@ -1,15 +1,17 @@
-const bodyParser = require("body-parser");
 const express = require("express");
 const app = express();
 const path = require("path");
+const fs = require("fs");
+const savedNotes = require("./app/db/db.json");
 const port = process.env.Port || 8080;
 
 
-app.use(express.urlencoded({extedned: true}));
+app.use(express.static("public"));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+// require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 
 
