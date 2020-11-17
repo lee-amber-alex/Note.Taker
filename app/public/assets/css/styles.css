@@ -4,6 +4,18 @@ html, body {
   padding: 0;
 }
 
+#homebg1{
+  background-image: url("../img/homeBG1.jpg")!important;
+}
+#notesBG{
+  background-color: #18bc9bba !important;
+}
+
+#notesH1{
+  text-shadow: 2px 2px 5px black;
+  color: white !important;
+}
+
 .save-note {
   display: none;
 }
