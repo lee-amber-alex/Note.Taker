@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const savedNotes = require("./app/db/db.json");
-const port = process.env.Port || 8080;
+const port = process.env.PORT || 8080;
 
 
 
