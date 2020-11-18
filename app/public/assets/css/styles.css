@@ -16,6 +16,13 @@ html, body {
   color: white !important;
 }
 
+#notesBG1{
+  background-image: url("../img/notesBG1.jpg");
+}
+
+#notesBG2{
+  background-image: url("../img/notesBG2.png");
+}
 .save-note {
   display: none;
 }
@@ -26,6 +33,7 @@ html, body {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 
 .note-textarea, .note-title {
   color: #000000;
@@ -38,16 +46,19 @@ html, body {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
+  background-color: rgba(255, 255, 255, 0.571);
 }
 
 .note-title {
   height: 50px;
   margin-top: 13px;
   font-size: 3rem;
+  color: black !important;
+  
 }
 
 .note-title:read-only, .note-textarea:read-only {
-  color: #757575;
+  color: black;
 }
 
 .list-container .card {
