@@ -39,6 +39,11 @@ body {
 .note-title:read-only,
 .note-textarea:read-only {
   color: black;
+  
+}
+
+#noteTextBG{
+  background-color: rgba(255, 255, 255, 0.488)!important;
 }
 
 .list-container .card {
