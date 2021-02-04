@@ -6,7 +6,7 @@
      
 ## Description
 
-An Express application used to write, save, and delete notes.
+An Express application used to write, save, and delete notes.  This is a note taking application that doesn't require a download from an app store.  Technologies used: Express, Bootstrap.
 
 ## Table of Contents
  
@@ -17,13 +17,13 @@ An Express application used to write, save, and delete notes.
  
 ## Installation
 ```
-npm install
+npm i
 ``` 
 
 ## Usage  
 
-Access my website repository [here.](https://github.com/lee-amber-alex/Note.Taker)  
-Visit my website [here.](https://salty-tundra-14714.herokuapp.com/) 
+Visit Note.Taker [here.](https://salty-tundra-14714.herokuapp.com/)
+Access the project repository [here.](https://github.com/lee-amber-alex/Note.Taker)  
 
 ### Home Page 
 ![Home Page.](app/public/assets/img/homeScreen.png)   
@@ -37,10 +37,6 @@ Visit my website [here.](https://salty-tundra-14714.herokuapp.com/)
 ## License
 This project is covered under the MIT License.
  
-
-## Tests
-```
-npm test
 ``` 
 ## Credits
 
